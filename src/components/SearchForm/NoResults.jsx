@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './SearchForm//SearchBox.module.css'
+import css from './SearchBox.module.css'
 
 export const NoResults = ({search}) => {
 return( <p className={css.noResMess}>There is no movies matching your search: '{search}'</p>)

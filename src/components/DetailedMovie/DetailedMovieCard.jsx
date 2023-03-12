@@ -1,15 +1,11 @@
-import defaultimage from '../../img/defaultposter.png';
 import css from './DetailedMovie.module.css';
-// import PropTypes from 'prop-types';
 
 export const DetailedMovieCard = ({ movie }) => {
   return (
     <div className={css.card}>
       <img
         src={
-          !movie.poster_path
-            ? defaultimage
-            : `https://image.tmdb.org/t/p/w500${movie.poster_path}`
+          `https://image.tmdb.org/t/p/w500${movie.poster_path}`
         }
         alt={movie.original_title}
         width="250"

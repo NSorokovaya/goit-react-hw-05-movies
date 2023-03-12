@@ -2,7 +2,7 @@ import { useSearchParams} from 'react-router-dom';
 import { MoviesList } from 'components/MoviesList/MoviesList';
 import { searchMovies } from '../../services/movieApi';
 import { useState, useEffect } from 'react';
-import { SearchBox } from './SearchBox/SearchBox';
+import { SearchBox } from './SearchBox';
 import { NoResults } from './NoResults';
 
 
